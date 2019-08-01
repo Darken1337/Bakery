@@ -1,0 +1,73 @@
+.l-container 
+	max-width: 1280px
+	width: 90%
+	margin: 0 auto
+	&-nav
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 30px 0
+		position: relative
+
+
+.header
+	background-repeat: no-repeat
+	background-position: top center
+	background-size: cover
+	background-attachment: fixed
+	overflow: hidden
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	z-index: 100
+
+.l-banner-wrapper
+	position: relative
+	z-index: 10
+	padding: 13.25vw 0
+	+customMedia(768px)
+		padding-top: 150px
+	&::after
+		+customMedia(768px)
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: rgba(#000, .7)
+			padding: 5px 10px
+			z-index: 20
+	& > .l-container
+		position: relative
+		z-index: 30
+
+
+.l-art-wrapper
+	padding: 5.12vw 0
+	background-color: #fefdfc
+
+.l-pancakes-wrapper
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: 100% auto
+	padding: 8.75vw 0 6.75vw 0
+
+.l-breakfast-wrapper
+	background-image: url('../images/breakfast-bg.png')
+	background-repeat: no-repeat
+	background-position: top center
+	background-size: cover
+	padding-top: 92px
+	padding-bottom: 72px
+
+.l-mainmeal-wrapper
+	padding-top: 90px 
+	padding-bottom: 117px
+	position: relative 
+	background-color: #f3f1e9
+
+.footer
+	background-color: #f3f1e9
+	padding-bottom: 4.56vw

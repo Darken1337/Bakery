@@ -1,0 +1,57 @@
+@mixin respond($break) {
+  @if $break == phone{
+    @media (max-width: 30em) { @content }; //480px
+  } @else if $break == tablet {
+     @media (max-width: 48em) { @content }; //768px 
+  }@else if $break == laptop {
+    @media (max-width: 74.94em) { @content }; //1199px   
+  }@else if $break == desktop{
+    @media (max-width: 80em) { @content }; //1600px
+  }
+           
+}
+
+@mixin customMedia($maxWidth){
+  @media (max-width: $maxWidth) { @content };
+}
+
+@mixin respondBootstrap($break) {
+  @if $break == phoneSmall{
+    @media (max-width: 35.9em) { @content }; //320px !!If necessary
+  } @else if $break == phone{
+    @media (min-width: 36em) { @content }; //576px
+  } @else if $break == tablet {
+     @media (min-width: 48em) { @content }; //768px 
+  }@else if $break == laptop {
+    @media (min-width: 62em) { @content }; //992px   
+  }@else if $break == desktop{
+    @media (min-width: 75em) { @content }; //1200px
+  }
+           
+}
+  
+@mixin centerItem{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  
+
+@mixin centerRightItem{
+	position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@mixin bold{
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+@mixin light{
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+@mixin regular{
+  font-family: 'Montserrat-Regular', sans-serif;
+}

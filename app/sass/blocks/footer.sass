@@ -1,0 +1,51 @@
+.footer-nav__wrapper
+    display: flex
+    justify-content: center
+    +customMedia(840px)
+        flex-direction: column
+        align-items: center
+
+.footer__logo
+    margin: 2rem 2.8vw
+
+.footer-nav
+    display: flex
+    border-top: 1px solid #c2beba
+    border-bottom: 1px solid #c2beba
+    padding: 3rem 2.1vw
+    +customMedia(840px)
+        width: 100%
+        justify-content: space-around
+    +customMedia(480px)
+        flex-direction: column
+        align-items: center
+    & > *:not(:last-child)
+        margin-right: 5vw
+        position: relative
+        +customMedia(1200px)
+            margin-right: 2rem
+        +customMedia(480px)
+            margin-right: 0
+            margin-bottom: 1.5rem
+        &::after
+            content: '~'
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: 100%
+            margin-left: 2.3vw
+            font-size: 14px
+            font-family: $alegreya
+            color: #56534c
+            +customMedia(1200px)
+                margin-left: .5rem
+            +customMedia(840px)
+               display: none
+    &__item
+        letter-spacing: 4.2px
+        font-size: 1.4rem
+        font-family: $alegreya
+        color: #56534c
+        text-transform: uppercase
+        +customMedia(840px)
+            font-size: 16px

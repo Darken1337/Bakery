@@ -1,0 +1,286 @@
+doctype html
+html(lang="en")
+	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(charset='UTF-8')
+		title Backery
+		link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
+		link(rel="stylesheet" href="libs/css/font-awesome.min.css")
+		link(rel="stylesheet", href='css/styles.min.css')
+		
+	body
+		header.header#header
+			.menu-responsive-wrapper#menu-responsive
+				ul.menu-responsive
+					li: a.menu-responsive__item Welcome
+					li: a.menu-responsive__item Menu
+					li: a.menu-responsive__item reservations
+					li: a.menu-responsive__item news
+					li: a.menu-responsive__item contact
+				button.btn-close-menu#close-menu
+					span
+					span
+			nav.navigation
+				.l-container.l-container-nav
+					.logo gustoso
+					button.menu-responsive-toggle#menu-responsive-toggle Menu
+					ul.menu
+						li: a.menu__item Welcome
+						li: a.menu__item Menu
+						li: a.menu__item reservations
+						li: a.menu__item news
+						li: a.menu__item contact
+					.social-media
+						i.fab.fa-twitter.social-media__icon
+						i.fab.fa-facebook-f.social-media__icon
+						i.social-media__icon.fab.fa-instagram
+		section#s-banner(style="background-image: url(images/bg-header.png) ")
+			.l-banner-wrapper
+				.l-container
+					.banner
+						h1.banner__title Pastry with love
+						.banner__icon
+							svg
+								use(xlink:href="images/svg/symbol/sprites.svg#dashed_line")
+						p.banner__text We’re bringing you fresh ingredients every day in ways you can’t resist.
+						button.banner__button Our menu
+				vutton.banner__cake
+					span.banner__circle
+					svg
+						use(xlink:href="images/svg/symbol/sprites.svg#move-down")
+		section#s-art
+			.l-art-wrapper
+				.l-container
+					.art
+						article.memories
+							h2.memories__heading Art of cakes
+							small.memories__subscribtion we create delicious memories
+							p.memories__text Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
+							.memories-slider-wrapper
+								.memories-slider
+									.memories-slider__item
+										h3.memories-slider__title Chief Cook
+										.memories-slider__photo: img(src="images/chief.png", alt="Chief photo")
+										q.memories-slider__quote Uniqu
+									.memories-slider__item
+										h3.memories-slider__title Chief Cook
+										.memories-slider__photo: img(src="images/chief.png", alt="Chief photo")
+										q.memories-slider__quote Unique creations for unique occasions.
+									.memories-slider__item
+										h3.memories-slider__title Chief Cook
+										.memories-slider__photo: img(src="images/chief.png", alt="Chief photo")
+										q.memories-slider__quote Unique creations for unique occasions.
+						.art-gallery
+							.art-gallery__item: img(src="images/gallery-1.png", alt="flour")
+							.art-gallery__item: img(src="images/gallery-2.png", alt="egg")
+							.art-gallery__item: img(src="images/gallery-3.png", alt="cake")
+							.art-gallery__item: img(src="images/gallery-4.png", alt="strawberry")
+							.art-gallery__subscribtion(style="background-image: url(images/art-gallery.png)") 
+								span tastes so good
+
+		section#s-pancakes
+			.l-pancakes-wrapper(style="background-image: url(images/pancakes-bg.png);")
+				.l-container
+					.pancakes
+						.pancakes-slider
+							.pancakes-slider__item
+								.pancakes-slider__img: img(src="images/pancake.png", alt="pancake")
+								a.pancakes-slider__angle(href="#")
+									img(src="images/angle.png", alt="")
+								.pancakes-slider__opinion
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-empty")
+							.pancakes-slider__item
+								.pancakes-slider__img: img(src="images/pancake-2.jpg", alt="pancake")
+								.pancakes-slider__opinion
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-empty")
+								a.pancakes-slider__angle(href="#")
+									img(src="images/angle.png", alt="")
+							.pancakes-slider__item
+								.pancakes-slider__img: img(src="images/pancake-3.jpeg", alt="pancake")
+								.pancakes-slider__opinion
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-empty")
+								a.pancakes-slider__angle(href="#")
+									img(src="images/angle.png", alt="")
+							.pancakes-slider__item
+								.pancakes-slider__img: img(src="images/pancake-4.jpg", alt="pancake")
+								.pancakes-slider__opinion
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-full")
+									a.pancakes-slider__star
+										svg
+											use(xlink:href="images/svg/symbol/sprites.svg#star-empty")
+								a.pancakes-slider__angle(href="#")
+									img(src="images/angle.png", alt="")
+						article.tasty(style="background-image: url(images/tasty-bg.png)")
+							h2.tasty__heading Tasty pancakes
+							small.tasty__subscribtion season favourite
+							p.tasty__text Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+							button.tasty__resize-button
+								svg
+									use(xlink:href="images/svg/symbol/sprites.svg#tasty-resize")
+							.tasty-slider
+								.tasty-slider__item: img(src="images/slider-1.png", alt="dish")
+								.tasty-slider__item: img(src="images/slider-2.png", alt="dish")
+								.tasty-slider__item: img(src="images/slider-3.png", alt="dish")
+								.tasty-slider__item: img(src="images/slider-3.png", alt="dish")
+						.warranty(style="background-image: url(images/warranty-bg.png)")
+							.warranty__ready ready in 	
+							.warranty__num 40
+							.warranty__min mins
+
+		section#s-breakfast
+			.l-breakfast-wrapper(style="background-image: url('images/breakfast-bg.png')")
+				.l-container
+					.breakfast
+						.breakfast-menu
+							h3.breakfast-menu__heading Breakfast
+							small.breakfast-menu__subtitle 7am breakfast?we're open!
+							.schedule
+								ul.schedule__item
+									li.schedule__meal Full breakfast
+									li.schedule__desc Duis ut tortor, et risus, vulputate pretium
+									li.schedule__price $12.49
+								ul.schedule__item
+									li.schedule__meal Toast &amp; jam
+									li.schedule__desc Suspendisse, tempus, nterdum
+									li.schedule__price $4.90
+								ul.schedule__item 
+									li.schedule__meal Muffins
+									li.schedule__desc Fusce eget dui sodales est
+									li.schedule__price $3.95
+						.breakfast-mornings
+							.breakfast-morning(style="background-image: url(images/breakfast-morning-bg.png)" data-z)
+								.breakfast-morning__year
+									span EST.
+									span 1893
+								.breakfast-morning__pic
+									svg
+										use(xlink:href="images/svg/symbol/sprites.svg#menu_prev")
+								h3.breakfast-morning__heading Your morning Escape with flair
+								p.breakfast-morning__text Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+								button.breakfast-morning__read read
+							.breakfast-morning(style="background-image: url(images/breakfast-morning-bg.png)" data-z)
+								.breakfast-morning__year
+									span EST.
+									span 2093
+								.breakfast-morning__pic
+									svg
+										use(xlink:href="images/svg/symbol/sprites.svg#menu_prev")
+								h3.breakfast-morning__heading Your morning Escape with flair
+								p.breakfast-morning__text Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+								button.breakfast-morning__read read
+							.breakfast-morning(style="background-image: url(images/breakfast-morning-bg.png)" data-z)
+								.breakfast-morning__year
+									span EST.
+									span 1993
+								.breakfast-morning__pic
+									svg
+										use(xlink:href="images/svg/symbol/sprites.svg#menu_prev")
+								h3.breakfast-morning__heading Your morning Escape with flair
+								p.breakfast-morning__text Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+								button.breakfast-morning__read read
+
+		section#s-mainmeal
+			.l-mainmeal-wrapper
+				.l-container
+					.mainmeal-intro
+						h3.mainmeal-intro__title The Jibarito sandwich
+						small.mainmeal-intro__subtitle the best sandwich you've ever tasted!
+					.mainmeal
+						.features
+							.ingridient
+								.ingridient__img: img(src='images/sandwitch-1.png')
+								h4.ingridient__name Class aptent
+								p.ingridient__text Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
+							.ingridient
+								.ingridient__img: img(src='images/sandwitch-2.png')
+								h4.ingridient__name Class aptent
+								p.ingridient__text Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
+							.ingridient
+								.ingridient__img: img(src='images/sandwitch-3.png')
+								h4.ingridient__name Class aptent
+								p.ingridient__text Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
+						.sandwitch(style="background-image: url(images/sandwitch-big.png)")
+							.sandwitch-warranties
+								.sandwitch-warranty
+									.sandwitch-warranty__brown prev
+									.sandwitch-warranty__num 15
+									.sandwitch-warranty__minute mins
+								.sandwitch-warranty
+									.sandwitch-warranty__brown cook
+									.sandwitch-warranty__num 35
+									.sandwitch-warranty__minute mins
+								.sandwitch-warranty.sandwitch-warranty--white(style="background-image: url('images/warranty-bg.png')")
+									.sandwitch-warranty__brown ready in
+									.sandwitch-warranty__num 50
+									.sandwitch-warranty__minute mins
+							button.sandwitch__btn full recipe
+
+		footer.footer#footer
+			.l-container
+				.footer-nav__wrapper
+					ul.footer-nav
+						li: a.footer-nav__item Our menu
+						li: a.footer-nav__item gallery
+						li: a.footer-nav__item culture
+					.logo.footer__logo Gustoso
+					ul.footer-nav
+						li: a.footer-nav__item events
+						li: a.footer-nav__item catering
+						li: a.footer-nav__item visit us
+		script(type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js")
+		script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+		script(type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+		script(src='js/main.min.js')

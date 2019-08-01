@@ -1,0 +1,106 @@
+.breakfast
+    display: flex
+    max-width: 1049px
+    margin: 0 auto
+    +customMedia(666px)
+        display: block
+    &-menu
+        margin-right: 19.25vw
+        text-align: center
+        +customMedia(666px)
+            margin-bottom: 5rem
+            margin-right: 0
+
+        &__heading
+            color: #ffffff
+            font-size: 6rem
+            letter-spacing: 3px
+            font-family: $alegreya-bold
+        &__subtitle
+            color: #c8a593
+            font-size: 1.8rem
+            text-transform: uppercase
+            margin-top: 1.5rem
+            margin-bottom: 6.6rem
+
+.schedule
+    & > *:not(:last-child)
+        margin-bottom: 5.2rem
+    &__meal
+        letter-spacing: 1.5px
+        font-size: 3rem
+        font-family: $alegreya-bold
+        color: #ffffff
+    &__desc
+        color: #c2beba
+        font-size: 1.8rem
+        font-family: $proxima
+        margin-top: 2.2rem
+        margin-bottom: 3rem
+    &__price
+        font-size: 3.6rem
+        letter-spacing: 1.8px
+        color: #dfc691  
+        font-family: $alegreya
+
+.breakfast-mornings
+    position: relative
+    width: 44.8rem 
+    min-height: 65rem
+    margin: 0 auto
+
+.breakfast-morning
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    padding: 5.5rem
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    text-align: center
+    align-items: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    transition: .3s
+    &__year
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        width: 230px
+        letter-spacing: 0.7px
+        font-family: $alegreya-bold
+        text-transform: uppercase
+        font-size: 1.4rem
+
+    &__pic
+        margin-top: 1.5rem
+        margin-bottom: 7.5rem
+        svg
+            width: 100%
+            height: 6rem
+    &__heading
+        letter-spacing: 1.1px
+        font-size: 4.4rem
+        color: #56534c
+        font-family: $alegreya-bold
+        line-height: 1.55
+    &__text
+        margin-top: 4.3rem
+        margin-bottom: 5.5rem
+        letter-spacing: 0.7px
+        font-family: $proxima
+        font-size: 1.4rem
+        line-height: 2.14
+        color: #56534c
+    &__read
+        border: 1px solid #9e9c93
+        font-size: 1.8rem
+        letter-spacing: 0.9px
+        color: #a47d5e
+        font-family: $alegreya-bold
+        text-transform: uppercase
+        text-align: center
+        padding: 1.9rem 7rem
+

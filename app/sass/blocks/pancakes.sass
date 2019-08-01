@@ -1,0 +1,163 @@
+.pancakes
+    display: flex
+    max-width: 965px
+    position: relative
+    +customMedia(890px)
+        display: block
+    &-slider
+        max-width: 585px
+        +customMedia(890px)
+            max-width: unset
+            margin-bottom: 3rem
+        &__item
+            position: relative
+        &__img
+            overflow: hidden
+            background-color: rgba(#e61025, .7)
+            img
+                min-height: 536px
+                +customMedia(890px)
+                    margin: 0 auto
+                    width: auto
+                    height: 53.6rem
+                    min-height: unset
+
+        &__angle
+            position: absolute
+            left: 0
+            bottom: 0
+            z-index: 50
+            width: 50px 
+            height: 50px
+            +customMedia(890px)
+                display: none
+        &__opinion
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: 3rem
+            background-color: rgba(#000, .7)
+            padding: 10px 5px
+            z-index: 50
+            & > *:not(:last-child)
+                margin-bottom: 1rem
+        &__star
+            display: block
+            svg
+                width: 21px
+                height: 20px
+                
+.tasty
+    margin-left: -167px
+    position: relative
+    z-index: 40
+    background-color: #fff
+    padding: 8rem 6rem 4rem 6rem
+    background-position: bottom right
+    background-repeat: no-repeat
+    max-height: 535px
+    +customMedia(890px)
+        margin-left: 0px
+
+    &__heading
+        margin-bottom: 2rem
+        font-family: $alegreya-bold
+    &__subscribtion
+        font-family: $alegreya-bold
+    &__text
+        margin-top: 7rem
+        margin-bottom: 7rem
+        letter-spacing: 1.4px
+        font-family: $proxima
+        font-size: 14px
+        line-height: 1.7
+        text-overflow: ellipsis
+    &__resize-button
+        position: absolute
+        top: 50%
+        transform: translate(-50%, -50%)
+        left: 0
+        background-color: #fff
+        padding: 1.8rem
+        width: 4.6rem
+        height: 5rem
+        border-radius: 50%
+        +customMedia(890px)
+            display: none
+        svg
+            width: 9px
+            height: 16px
+            margin: 0 auto
+    &-slider
+        max-width: 322px
+        margin: 0 auto
+        &__button
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            color: #d8bba3
+            border: 1px solid #d8bba3
+            border-radius: 50%
+            font-size: 20px
+            width: 32px
+            height: 32px
+            +customMedia(890px)
+                background-color: rgba(#000, .7)
+            &--prev
+                right: 100%
+                margin-right: 1.5rem
+                padding-right: 2px
+            &--next
+                left: 100%
+                margin-left: 1.5rem
+                padding-left: 2px
+        &__item
+            max-width: 100px
+            margin: 0 1.5rem
+            +customMedia(480px)
+                margin: 0
+                max-width: unset
+            img
+                height: 100%
+                width: auto
+                max-width: unset
+                +customMedia(480px)
+                    margin: 0 auto
+
+.warranty
+    position: absolute
+    right: 0
+    top: - 4.3rem
+    padding: 3rem 5rem
+    z-index: 50
+    transform: translateX(50%)
+    background-color: #fff
+    background-size: 100% auto
+    background-position: center center
+    background-repeat: no-repeat
+    text-align: center
+    font-family: $alegreya-bold
+    +customMedia(1150px)
+        transform: translateX(0%)
+        background-color: rgba(#fff, .4)
+    +customMedia(970px)
+        display: none
+    &__num
+        margin-top: 2.1rem
+        margin-bottom: 1rem
+        color: #dfc691
+        font-size: 9.2rem
+        letter-spacing: 9.2px
+    &__ready
+        letter-spacing: 1.8px
+        font-size: 1.8rem
+        color: #a47d5e
+        text-transform: uppercase
+    &__min
+        color: #979285
+        font-size: 1.8rem
+        letter-spacing: 1.8px
+        
+
+
+           

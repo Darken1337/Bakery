@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Times New Roman';
+	src: url('./assets/fonts/times_new_roman.eot'); /* IE 9 Compatibility Mode */
+	src: url('./assets/fonts/times_new_roman.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./assets/fonts/times_new_roman.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./assets/fonts/times_new_roman.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./assets/fonts/times_new_roman.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./assets/fonts/times_new_roman.svg#times_new_roman') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Scriptina';
+    src: url('./assets/fonts/Scriptina.eot');
+    src: url('./assets/fonts/Scriptina.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Scriptina.woff2') format('woff2'),
+        url('./assets/fonts/Scriptina.woff') format('woff'),
+        url('./assets/fonts/Scriptina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('./assets/fonts/ProximaNova-Regular.eot');
+    src: url('./assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('./assets/fonts/ProximaNova-Regular.woff') format('woff'),
+        url('./assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/PlayfairDisplay-Bold.eot');
+    src: url('./assets/fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('./assets/fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('./assets/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Bold';
+    src: url('./assets/fonts/Alegreya-Bold.eot');
+    src: url('./assets/fonts/Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Alegreya-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Alegreya-Bold.woff') format('woff'),
+        url('./assets/fonts/Alegreya-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Regular';
+    src: url('./assets/fonts/Alegreya-Regular.eot');
+    src: url('./assets/fonts/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Alegreya-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Alegreya-Regular.woff') format('woff'),
+        url('./assets/fonts/Alegreya-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: url('./assets/fonts/fa-brands-400.eot');
+  src: url('./assets/fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/fa-brands-400.woff') format('woff'),
+  url('./assets/fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Regular";
+  src: url('./assets/fonts/fa-regular-400.eot');
+  src: url('./assets/fonts/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/fa-regular-400.woff') format('woff'),
+  url('./assets/fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 solid";
+  src: url('./assets/fonts/fa-solid-900.eot');
+  src: url('./assets/fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/fa-solid-900.woff') format('woff'),
+  url('./assets/fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fas{
+  font-family: 'Font Awesome 5 solid' !important;
+}
+
+.far{
+  font-family: 'Font Awesome 5 Regular' !important;
+  font-weight: 400;
+}
+

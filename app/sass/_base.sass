@@ -1,0 +1,80 @@
+html
+	scroll-behavior: smooth
+	font-size: 62.5%
+	font-family: 'Montserrat-Regular', sans-serif
+	line-height: 1
+	@media screen and (max-width: 1024px)
+		font-size: 50%
+	@media screen and (max-width: 768px)
+		font-size: 40%
+    
+*, *::before, *::after
+	box-sizing: border-box
+    
+.container
+	width: 100%
+	max-width: 1220px
+	margin: 0 auto
+	@media screen and (max-width: 1024px)
+    padding: 0 15px
+	&--medium
+    	max-width: 1529px
+	&--big
+		max-width: 1803px
+
+form
+	margin: 0
+
+body, 
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p
+	margin: 0 
+	padding: 0
+
+ul
+	list-style: none
+	&>li
+		display: block
+		padding: 0
+  
+address
+	font-style: normal
+
+select:focus
+	outline: 0
+
+a,
+button
+	display: inline-block
+	text-decoration: none
+	border: 0
+	background: transparent
+	color: inherit
+	outline: 0
+	cursor: pointer
+	padding: 0
+	transition: all .3s ease
+	&:focus
+		outline: 0
+
+input
+	display: inline-block
+	outline: 0
+	&[type="checkbox"],
+	input[type="submit"]
+		cursor: pointer
+		margin: 0
+	&[type="text"], 
+	input[type="email"],
+	input[type="tel"]
+		cursor: text
+
+img
+	width: auto
+	height: 100%
+

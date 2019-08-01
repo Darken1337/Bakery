@@ -1,0 +1,121 @@
+.mainmeal-intro
+    text-align: center
+    
+    &__title
+        font-family: $alegreya-bold
+        color: #56534c
+        letter-spacing: 1.2px
+        font-size: 4.8rem
+        margin-bottom: 1.6rem
+    &__subtitle
+        letter-spacing: 1.4px
+        font-family: $alegreya-bold
+        font-size: 1.4rem
+        text-transform: uppercase
+
+.mainmeal
+    display: flex
+    +customMedia(1000px)
+        flex-direction: column
+        align-items: center
+
+.features
+    margin-right: 13rem
+    +customMedia(1000px)
+        margin-right: 0
+        display: flex
+        margin: 3rem auto
+    +customMedia(621px)
+        flex-direction: column
+        align-items: center
+        
+    & > *:not(:last-child)
+        margin-bottom: 5.7rem
+        +customMedia(1000px)
+            margin-bottom: 0
+            margin-right: 3rem
+        +customMedia(621px)
+            margin-right: 0
+            margin-bottom: 3rem
+
+.ingridient
+    text-align: center
+    max-width: 290px
+    &__name
+        color: #a47d5e
+        font-size: 3rem
+        letter-spacing: 0.75px
+        font-family: $alegreya-bold
+        margin: 2rem 0
+    &__text
+        letter-spacing: 1.4px
+        font-size: 14px
+        font-family: $proxima
+        color: #56534c
+        line-height: 1.43
+
+.sandwitch
+    margin-top: 9rem
+    border: 10px solid #ffffff
+    width: 100%
+    height: 55.6rem
+    position: relative
+    background-repeat: no-repeat
+    background-size: auto 100%
+    background-position: center center
+    +customMedia(1000px)
+        background-size: 100% auto
+    +customMedia(621px)
+        background-size: auto 100%
+    &__btn
+        position: absolute
+        left: -3.3rem
+        bottom: -3.3rem
+        padding: 2.1rem 2.9rem
+        color: #dfc691
+        letter-spacing: 0.9px
+        border: 1px dashed #dfc691
+        font-family: $alegreya-bold
+        font-size: 1.8rem
+        text-transform: uppercase
+        background-color: #fff
+    &-warranties
+        position: absolute
+        top: -2.5rem
+        bottom: -2.5rem
+        right: 0
+    &-warranty
+        background-color: rgba(#ffffff, .8)
+        padding: 4.9rem 7.5rem
+        text-align: center
+        font-family: $alegreya-bold
+        height: calc(100%/3 - 1px)
+        +customMedia(621px)
+            padding: 4.9rem 4rem
+        &:not(:last-child)
+            margin-bottom: 2px
+        &--white
+            background-color: #fff
+            background-position: bottom center
+            background-repeat: no-repeat
+            background-size: 100% auto
+            .sandwitch-warranty__num
+                color: #dfc691
+                font-size: 9.2rem
+                letter-spacing: 9.2px
+        &__brown
+            letter-spacing: 1.8px
+            font-size: 1.8rem
+            color: #a47d5e
+            text-transform: uppercase
+        &__num
+            margin-top: 2.5rem
+            margin-bottom: 1rem
+            font-size: 6rem
+            letter-spacing: 6px
+            color: #56534c
+            
+        &__minute
+            color: #979285
+            letter-spacing: 1.8px
+            font-size: 1.8rem
